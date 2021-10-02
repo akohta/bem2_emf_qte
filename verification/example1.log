@@ -1,0 +1,36 @@
+../example1.out veri.dat 
+
+-- incidnt field data --
+filename                 : ifd.txt
+planewave amplitude E0   :      1+      0I
+wavelength in vacuum     :               1
+refractive index         :               1
+incident angle     [rad] :       1.5707963
+-- medium data --
+medium data file name                  : medium_data.txt
+medium (domain) id  1 refractive index :     1.6 +        0I
+-- mesh data --
+mesh data file name        : veri_model.msh
+numnber of nodes           :     5440
+number of defined elements :     5440
+-- periodicity data --
+periodicity data file  : periodicity_data.txt
+periodicity setting    : 0 ( no periodicity )
+
+Total electromagnetic field at r=(  0.3, 0 )
+type=0 setting ( 3 point Gauss-Legendre )
+Ez =  9.22674111506681e-01 +1.93856758524111e+00 I 
+Hx =  4.51681348795954e-01 +1.67609490188721e+00 I 
+Hy = -3.83553328888983e-01 +6.13229603138205e-01 I 
+type=1 setting ( 7 point Gauss-Kronrod )
+Ez =  9.22674111508557e-01 +1.93856758524062e+00 I 
+Hx =  4.51681348788038e-01 +1.67609490187598e+00 I 
+Hy = -3.83553328887115e-01 +6.13229603139635e-01 I 
+
+Radiation force and torque
+type=0 ( 3 point Gauss-Legendre ) 
+(Fx,Fy) = ( 3.36097650811655e-06, 3.25814989864538e+00)
+   Nz   =   7.67008740545569e-06, center of rotation ( 0, 0)
+type=1 ( 7 point Gauss-Kronrod ) 
+(Fx,Fy) = ( 3.36097634435345e-06, 3.25814910000332e+00)
+   Nz   =   7.67008567167937e-06, center of rotation ( 0, 0)

@@ -1,0 +1,3 @@
+## periodicity data file for bem2_emf_qte
+# periodicity_setting(0:no periodicity) lattice_constant
+1 2.01

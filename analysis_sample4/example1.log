@@ -1,0 +1,43 @@
+../example1.out ex4.dat 
+
+-- incidnt field data --
+filename                 : ifd.txt
+planewave amplitude E0   :      1+      0I
+wavelength in vacuum     :               1
+refractive index         :               1
+incident angle     [rad] :             1.2
+-- medium data --
+medium data file name                  : medium_data.txt
+medium (domain) id  1 refractive index :     1.6 +        0I
+medium (domain) id  2 refractive index :    0.05 +        4I
+-- mesh data --
+mesh data file name        : circle_2.msh
+numnber of nodes           :      480
+number of defined elements :      480
+-- periodicity data --
+periodicity data file  : periodicity_data.txt
+periodicity setting    : 1 ( quasi-periodic boundary condition )
+lattice constant       :      1.5
+
+-- rotation and translation settings --
+rotation angle                    [rad]: 1.570796
+x-component of translation vector      :        0
+y-component of translation vector      :        0
+
+Total electromagnetic field at r=(  0.3, 0 )
+type=0 setting ( 3 point Gauss-Legendre )
+Ez = -2.01241201594505e+00 +4.26865125949440e-01 I 
+Hx = -7.67834959226346e-01 -9.31322471084541e-01 I 
+Hy =  6.74726185093625e-01 +5.28031570228866e-02 I 
+type=1 setting ( 7 point Gauss-Kronrod )
+Ez = -2.01241201585220e+00 +4.26865125919001e-01 I 
+Hx = -7.67834959365613e-01 -9.31322471086308e-01 I 
+Hy =  6.74726185134187e-01 +5.28031570279065e-02 I 
+
+Radiation force and torque
+type=0 ( 3 point Gauss-Legendre ) 
+(Fx,Fy) = ( 4.30532730879226e-01, 1.01684316052334e+00)
+   Nz   =   4.98168666773605e-01, center of rotation ( 0, 0)
+type=1 ( 7 point Gauss-Kronrod ) 
+(Fx,Fy) = ( 4.30532724163895e-01, 1.01684316178689e+00)
+   Nz   =   4.98168675323398e-01, center of rotation ( 0, 0)
