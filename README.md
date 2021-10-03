@@ -32,7 +32,7 @@ The "d3_qpgf_d1" is used to calculate quasi-periodic Green's function for Helmho
 3. type './example1.out' with an argument of datafile name output by d2qte_bv_solver.  
    For example, './example1.out ex.dat'. This executable calculates electromagnetic field, radiation force and torque.  
    
-4. type './example2.out' with an argument of datafile name output by d2te_bv_solver.  
+4. type './example2.out' with an argument of datafile name output by d2qte_bv_solver.  
    For example, './example2.out ex.dat'. This executable calculates electromagnetic field intensity distributions, outputs them to text files. 
    The I_example2.png is the visualization result of intensity distributions, created by using Gnuplot script gscript_example2.plt.  
    
