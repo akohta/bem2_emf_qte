@@ -12,8 +12,8 @@ medium (domain) id  1 refractive index :       1 +        0I
 medium (domain) id  2 refractive index :    0.05 +        4I
 -- mesh data --
 mesh data file name        : rect_3.msh
-numnber of nodes           :      533
-number of defined elements :      534
+numnber of nodes           :      841
+number of defined elements :      842
 -- periodicity data --
 periodicity data file  : periodicity_data.txt
 periodicity setting    : 1 ( quasi-periodic boundary condition )
@@ -21,18 +21,18 @@ lattice constant       :      0.5
 
 Total electromagnetic field at r=(  0.3, 0 )
 type=0 setting ( 3 point Gauss-Legendre )
-Ez =  3.65116306828011e-04 +2.61942978070322e-04 I 
-Hx = -9.25318276188680e-04 +1.33354032015646e-03 I 
-Hy = -3.75829801530023e-04 -2.73016093287656e-04 I 
+Ez =  3.63700356306422e-04 +2.61177800895696e-04 I 
+Hx = -9.23578750330125e-04 +1.33337304827253e-03 I 
+Hy = -3.75697709720371e-04 -2.71386533148420e-04 I 
 type=1 setting ( 7 point Gauss-Kronrod )
-Ez =  3.64977314480172e-04 +2.61783592848933e-04 I 
-Hx = -9.25203197318013e-04 +1.33367584730436e-03 I 
-Hy = -3.75685975208152e-04 -2.72851766641322e-04 I 
+Ez =  3.63629092406556e-04 +2.61097871763152e-04 I 
+Hx = -9.23519379540786e-04 +1.33344045224875e-03 I 
+Hy = -3.75623755567430e-04 -2.71303317145235e-04 I 
 
 Radiation force and torque
 type=0 ( 3 point Gauss-Legendre ) 
-(Fx,Fy) = ( 2.90847717666134e-09, 3.46148794036022e-07)
-   Nz   =  -7.63921528321061e-11, center of rotation ( 0, 0)
+(Fx,Fy) = ( 3.10103646673567e-09, 3.62073941172640e-07)
+   Nz   =  -4.51309485389948e-11, center of rotation ( 0, 0)
 type=1 ( 7 point Gauss-Kronrod ) 
-(Fx,Fy) = ( 2.91099689523726e-09, 3.46143610245247e-07)
-   Nz   =  -7.92353111660075e-11, center of rotation ( 0, 0)
+(Fx,Fy) = ( 2.92183115519256e-09, 3.62247075819281e-07)
+   Nz   =  -2.87425762319158e-10, center of rotation ( 0, 0)

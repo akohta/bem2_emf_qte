@@ -12,8 +12,8 @@ medium (domain) id  1 refractive index :       1 +        0I
 medium (domain) id  2 refractive index :    0.05 +        4I
 -- mesh data --
 mesh data file name        : rect_3.msh
-numnber of nodes           :      533
-number of defined elements :      534
+numnber of nodes           :      841
+number of defined elements :      842
 -- periodicity data --
 periodicity data file  : periodicity_data.txt
 periodicity setting    : 1 ( quasi-periodic boundary condition )
@@ -26,4 +26,4 @@ solve electromagnetic field boundary value
   boundary value of domain 0   finished
   boundary value of domain 1   finished
   boundary value of domain 2   finished
-elapsed time : 22 (sec)
+elapsed time : 35 (sec)
