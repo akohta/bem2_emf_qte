@@ -1,0 +1,38 @@
+../example1.out ipw.txt multilayer.txt 
+
+-- incident plane wave --
+wavelength in vacuum                         : 1              
+refractive index                             : 1.33           
+p-polarization amplitude                     : 0.000000e+00 +0.000000e+00 I
+s-polarization amplitude                     : 1.000000e-03 +0.000000e+00 I
+incident angle (theta)                 [rad] : 0.891863247769 
+parameter for incident direction (phi) [rad] : 0              
+
+-- multilayer --
+number of layers : 4
+ layer 0, refractive index n_00 = 1.330000 +0.000000 I
+z_01 ------------------------------------------------ : 0
+ layer 1, refractive index n_01 = 0.050000 +4.000000 I
+z_02 ------------------------------------------------ : 0.05
+ layer 2, refractive index n_02 = 1.000000 +0.000000 I
+z_03 ------------------------------------------------ : 1
+ layer 3, refractive index n_03 = 1.330000 +0.000000 I
+
+power reflection and transmission coefficients
+p-polarization Rp= 0.03805635534109,	Tp= 0.79240627843501,	Rp+Tp=0.83046263377610 
+s-polarization Rs= 0.98581832519098,	Ts= 0.00075285468896,	Rs+Ts=0.98657117987994 
+
+electromagnetic field at r=(0.3, 0, 0), layer id=0
+E_x=-0.00000000000000e+00 +0.00000000000000e+00 I
+E_y= 3.63315900282455e-04 +2.60460802064608e-04 I
+E_z=-0.00000000000000e+00 +0.00000000000000e+00 I
+H_x= 9.23408087716421e-04 -1.33353365741870e-03 I
+H_y=-0.00000000000000e+00 +0.00000000000000e+00 I
+H_z= 3.76054986493329e-04 +2.69593440106254e-04 I
+electromagnetic field at r=(0.3, 0, 0), layer id=1
+E_x=-0.00000000000000e+00 +0.00000000000000e+00 I
+E_y= 3.63315900282455e-04 +2.60460802064608e-04 I
+E_z=-0.00000000000000e+00 +0.00000000000000e+00 I
+H_x= 9.23408087716421e-04 -1.33353365741870e-03 I
+H_y=-0.00000000000000e+00 +0.00000000000000e+00 I
+H_z= 3.76054986493329e-04 +2.69593440106254e-04 I

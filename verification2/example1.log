@@ -1,0 +1,38 @@
+../example1.out veri2.dat 
+
+-- incidnt field data --
+filename                 : ifd.txt
+planewave amplitude E0   :  0.001+      0I
+wavelength in vacuum     :               1
+refractive index         :            1.33
+incident angle     [rad] : 0.67893307902579
+-- medium data --
+medium data file name                  : medium_data.txt
+medium (domain) id  1 refractive index :       1 +        0I
+medium (domain) id  2 refractive index :    0.05 +        4I
+-- mesh data --
+mesh data file name        : rect_3.msh
+numnber of nodes           :      533
+number of defined elements :      534
+-- periodicity data --
+periodicity data file  : periodicity_data.txt
+periodicity setting    : 1 ( quasi-periodic boundary condition )
+lattice constant       :      0.5
+
+Total electromagnetic field at r=(  0.3, 0 )
+type=0 setting ( 3 point Gauss-Legendre )
+Ez =  3.65116306828011e-04 +2.61942978070322e-04 I 
+Hx = -9.25318276188680e-04 +1.33354032015646e-03 I 
+Hy = -3.75829801530023e-04 -2.73016093287656e-04 I 
+type=1 setting ( 7 point Gauss-Kronrod )
+Ez =  3.64977314480172e-04 +2.61783592848933e-04 I 
+Hx = -9.25203197318013e-04 +1.33367584730436e-03 I 
+Hy = -3.75685975208152e-04 -2.72851766641322e-04 I 
+
+Radiation force and torque
+type=0 ( 3 point Gauss-Legendre ) 
+(Fx,Fy) = ( 2.90847717666134e-09, 3.46148794036022e-07)
+   Nz   =  -7.63921528321061e-11, center of rotation ( 0, 0)
+type=1 ( 7 point Gauss-Kronrod ) 
+(Fx,Fy) = ( 2.91099689523726e-09, 3.46143610245247e-07)
+   Nz   =  -7.92353111660075e-11, center of rotation ( 0, 0)

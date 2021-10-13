@@ -1,0 +1,29 @@
+../d2qte_bv_solver ifd.txt medium_data.txt rect_3.msh periodicity_data.txt veri2.dat 
+
+-- incidnt field data --
+filename                 : ifd.txt
+planewave amplitude E0   :  0.001+      0I
+wavelength in vacuum     :               1
+refractive index         :            1.33
+incident angle     [rad] : 0.67893307902579
+-- medium data --
+medium data file name                  : medium_data.txt
+medium (domain) id  1 refractive index :       1 +        0I
+medium (domain) id  2 refractive index :    0.05 +        4I
+-- mesh data --
+mesh data file name        : rect_3.msh
+numnber of nodes           :      533
+number of defined elements :      534
+-- periodicity data --
+periodicity data file  : periodicity_data.txt
+periodicity setting    : 1 ( quasi-periodic boundary condition )
+lattice constant       :      0.5
+
+solve electromagnetic field boundary value 
+  coefficient matrix           finished
+  solve boundary value Ez      finished
+  boundary value Hx Hy         finished
+  boundary value of domain 0   finished
+  boundary value of domain 1   finished
+  boundary value of domain 2   finished
+elapsed time : 22 (sec)
