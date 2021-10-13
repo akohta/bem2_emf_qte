@@ -61,12 +61,21 @@ The additional analysis examples are in the folder analysis_sample1 ~ analysis_s
 ![xy_Hx 3](analysis_sample3/xy_Hx.gif "instantaneous value of the Hx (analysis_sample3/xy_Hx.gif)")![xy_Hy 3](analysis_sample3/xy_Hy.gif "instantaneous value of the Hy (analysis_sample3/xy_Hy.gif)")  
 
 
-## Verification  
+## Verification 1 
 
-The verification result is in the folder verification. 
+The first verification result is in the folder verification1. 
 This result is the approximation of the example code model with 17 cylinders.  
 
-![verification model](verification/model_image.png "verification model (verification/model_image.png)")  
+![verification1 model](verification1/model_image.png "verification1 model (verification1/model_image.png)")  
+
+
+## Verification 2  
+
+The second verification result is in the folder verification2. 
+This analysis approximates the multilayered substrate by periodically arranging quadangluar objects in close.
+The analytic solution can be obtained by using the code "emf_multilayer". 
+
+![verification2 model](verification2/particles.png "unit object (verification2/particles.png)")  
 
 
 ## About mesh file
@@ -105,3 +114,4 @@ Please see com_src/osu_mksa.h and com_src/osu_mksa.c for detail of conversions.
 4. The command-line driven graphing utility [gnuplot](http://www.gnuplot.info/)  
 5. The utilities for manipulating images [ImageMagick](https://imagemagick.org/)  
 6. The calculation program of quasi-periodic Green's function [d2_qpgf_d1](https://github.com/akohta/d2_qpgf_d1)
+7. The electromagnetic field analysis program [emf_multilayer](https://github.com/akohta/emf_multilayer)  
