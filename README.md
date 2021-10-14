@@ -72,7 +72,7 @@ This result is the approximation of the example code model with 17 cylinders.
 ## Verification 2  
 
 The second verification result is in the folder verification2. 
-This analysis approximates the multilayered substrate by periodically arranging quadangluar objects in close.
+This analysis approximates the multilayered substrate by periodically arranging quadrangular objects in close.
 The analytic solution can be obtained by using the code "emf_multilayer". 
 
 ![verification2 model](verification2/particles.png "unit object (verification2/particles.png)")  
